@@ -1,53 +1,83 @@
-title: I LOVE CODE
+#
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
+
 name: Thuan Nguyen
-email: thuannguyenit@gmail.com
-description: I am a motivated and self-organized developer that enjoys being part of a team to provide superior quality deliverables to the organization. Confident in my development in PHP and Java. Experience with PHP, Cloud service such as Amazon Web Services, Google Cloud Platform. I'm interested in Micro-services development, so Spring-boot is a framework that I'm stepping on.
-
-parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/startup3.jpg
-
-project_one: "First Project"
-project_one_description: Describe your project!
-project_one_url: https://github.com/jameshamann/jekyll-material-theme
-project_one_icon: location_on
-
-project_two: Second Project
-project_two_description: Describe your project!
-project_two_url: https://github.com/jameshamann/jekyll-material-theme
-project_two_icon: photo_camera
 
 
-project_three: Third Project
-project_three_description: Describe your project!
-project_three_url: https://github.com/jameshamann/jekyll-material-theme
-project_three_icon: hotel
+# Short bio or description (displayed in the header)
+description: Programmer From Somewhere On Earth
 
 
-project_four: Fourth Project
-project_four_description: Describe your project!
-project_four_url: https://github.com/jameshamann/jekyll-material-theme
-project_four_icon: restaurant
+#
+# Flags below are optional
+#
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: thuannguyenit@gmail.com
+  facebook:
+  flickr:
+  github: thuannguyenit
+  instagram:
+  linkedin: thuannguyenit
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter: 
+  stackoverflow: # your stackoverflow profile, e.g. "users/3807565/akshay"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
 
 
-project_button: Github
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
+disqus:
 
-github: https://github.com/jameshamann/jekyll-material-theme
-medium: https://medium.com
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-94086237-1
 
-baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it as '/'
-url: / #the url of your site
+# Your website URL (e.g. http://akshayagarwal007.github.io)
+# Used for Sitemap.xml and your RSS feed
+url:
 
-google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: "/"
 
-cookies_banner: show # The value "show" will show the cookies banner, the value "none" will hide the banner.
+#
+# !! You don't need to change any of the configuration flags below !!
+#
 
-cookie_accept_message: Thanks!
+permalink: /:title/
 
-# Build settings
-markdown: kramdown
-# theme: minima
-permalink: pretty
-plugins:
-  - jekyll-feed
-  - jekyll-assets
-  - jekyll-minifier
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spring boot known issues on Google Cloud Platform
-author: {{ site.name }}
+author: Thuan Nguyen
 ---
 
 Now a day, Spring boot is a powerful framework to build a RESTFul Web-services as well as Micro-services. However, I faced some issues when deploying on Google Appengine Standard.

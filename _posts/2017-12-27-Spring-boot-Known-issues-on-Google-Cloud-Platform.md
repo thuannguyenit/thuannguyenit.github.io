@@ -20,11 +20,11 @@ By following this page https://cloud.google.com/appengine/docs/standard/java/log
 
 To be able to capture the Spring-boot startup logs, you need to exclude "org.slf4j:jul-to-slf4j" dependency. The easiest way to do this is to set the dependency scope to provided, so that it won't be included in the WAR file:
 
-``
+```
 <!-- Exclude any jul-to-slf4j -->
 <dependency>
   <groupId>org.slf4j</groupId>
   <artifactId>jul-to-slf4j</artifactId>
   <scope>provided</scope>
 </dependency>
-``
+```

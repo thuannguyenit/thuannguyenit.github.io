@@ -31,11 +31,12 @@ To be able to capture the Spring-boot startup logs, you need to exclude "org.slf
 
 ## Sending Email with GAE Mail API
 -----
-If you are going to use GAE Mail API, you should considering some following topic
+If you are going to use GAE Mail API, you should considering some following topics:
 - Mail from: We can use any email address of the from **anything@[APP_NAME].appspotmail.com**
 - Bounce notification: You need to implementing **Bounce notification** when mail is not delivered in case non-exist email address or exeeded 31.5 MB of message size
 - You should remove SMTP configuration in Spring-boot **applications.yaml** file since Spring-boot will initial SMTP settings when starting up, so It may catch error
-- You need to enabling **GAE Client API** dependence as following
+- You need to enabling **GAE Client API** dependence as following:
+
 ```
 <dependency>
     <groupId>com.google.api-client</groupId>

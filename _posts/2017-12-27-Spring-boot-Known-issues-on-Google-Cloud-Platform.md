@@ -40,13 +40,13 @@ If you are going to use GAE Mail API, you should considering some following topi
 ```
 <dependency>
     <groupId>com.google.api-client</groupId>
-	  <artifactId>google-api-client-appengine</artifactId>
-	  <version>1.23.0</version>
+    <artifactId>google-api-client-appengine</artifactId>
+    <version>1.23.0</version>
 </dependency>
 <dependency>
     <groupId>com.google.appengine</groupId>
-	  <artifactId>appengine-api-1.0-sdk</artifactId>
-		<version>1.9.59</version>
+    <artifactId>appengine-api-1.0-sdk</artifactId>
+    <version>1.9.59</version>
 </dependency>
 ```
 

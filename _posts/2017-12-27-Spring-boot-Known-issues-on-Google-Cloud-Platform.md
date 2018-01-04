@@ -43,11 +43,6 @@ If you are going to use GAE Mail API, you should considering some following topi
     <artifactId>google-api-client-appengine</artifactId>
     <version>1.23.0</version>
 </dependency>
-<dependency>
-    <groupId>com.google.appengine</groupId>
-    <artifactId>appengine-api-1.0-sdk</artifactId>
-    <version>1.9.59</version>
-</dependency>
 ```
 
 For more detail, please read this document [Mail API Overview](https://cloud.google.com/appengine/docs/standard/java/mail/)

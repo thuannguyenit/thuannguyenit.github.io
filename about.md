@@ -54,4 +54,6 @@ Founder, ABC Organisation
 
 [thuannguyenit@gmail.com](mailto:thuannguyenit@gmail.com)
 
-[![Revu](http://io.vn.revu.net/post/5b5004ccc0ba9260505117.5b3ad470648af783868701.png)](http://test.vn.revu.net/link/p/5b5004ccc0ba9260505117)
+[![5b5004ccc0ba9260505117](http://io.vn.revu.net/post/5b5004ccc0ba9260505117.5b3ad470648af783868701.png)](http://test.vn.revu.net/link/p/5b5004ccc0ba9260505117)
+
+[![5b50196014c2c264159990](http://io.vn.revu.net/post/5b50196014c2c264159990.5b3c266bf286c820866628.png)](http://test.vn.revu.net/link/p/5b50196014c2c264159990)
